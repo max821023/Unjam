@@ -13,12 +13,19 @@
   <link rel="stylesheet" type="text/css" href="../stylesheets/index.css">
 </head>
 <body>
-  <h1>Unjam</h1>
+  <h1 class="title">Unjam</h1>
   <canvas id="game-canvas" height="420" width="420"></canvas>
+  <div class="instructions">
+    <h4>
+      The goal is to move the red piece out of the opening. 
+      To start, select a piece you want to move with the cursor. 
+      After highlighting the piece, you will be able to move the selected piece.
+    </h4>
+  </div>
   <div class="buttons">
-    <button><i class="fas fa-sync-alt" id="refresh"></i></button>
-    <button><i class="fab fa-github"></i></button>
-    <button><i class="fab fa-linkedin-in"></i></button>
+    <button class="button"><i class="fas fa-sync-alt" id="refresh"></i></button>
+    <a href="https://github.com/max821023"><button class="button"><i class="fab fa-github"></i></button></a>
+    <button class="button"><i class="fab fa-linkedin-in"></i></button>
   </div>
   <div id="win-message"></div>
   <script type="application/javascript" src="./main.js"></script>
