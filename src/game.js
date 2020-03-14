@@ -1,4 +1,3 @@
-import Board from "./board";
 import Piece from "./piece";
 
 export default class Unjam {

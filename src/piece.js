@@ -22,8 +22,6 @@ export default class Piece {
 
   update() {
     this.ctx.clearRect(this.x, this.y, this.width, this.height)
-    // if (!dt) return;
-    // this.x += 5 / dt;
     this.draw();
   }
 
