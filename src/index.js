@@ -1,1 +1,4 @@
-console.log("webpack works")
+import Unjam from './game';
+
+const canvas = document.getElementById("game-canvas");
+new Unjam(canvas);

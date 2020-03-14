@@ -3,10 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Unjam</title>
+  <style type="text/css">
+    /* canvas {
+      border: 1px solid black;
+    } */
+  </style>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/index.css">
 </head>
 <body>
-  <canvas id="game-canvas"></canvas>
+  <h1>Unjam</h1>
+  <canvas id="game-canvas" height="420" width="420"></canvas>
+  <div class="buttons">
+    <button><i class="fas fa-sync-alt" id="refresh"></i></button>
+    <button><i class="fab fa-github"></i></button>
+    <button><i class="fab fa-linkedin-in"></i></button>
+  </div>
+  <div id="win-message"></div>
   <script type="application/javascript" src="./main.js"></script>
 </body>
 </html>
