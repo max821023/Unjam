@@ -30,14 +30,26 @@ canvas {
   padding-left: 0;
   padding-right: 0;
   margin-left: auto;
-  margin-right: auto;
   display: block;
 }
 
 .instructions {
-  margin: 0 0 0 50px;
-  width: 250px;
+  margin: auto auto auto 40px;
+  width: 150px;
   font-family: sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 100;
+}
+
+.red-piece {
+  color: red;
+}
+
+br {
+  margin-bottom: 2px;
 }
 
 .buttons {
