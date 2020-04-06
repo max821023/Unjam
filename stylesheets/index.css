@@ -1,6 +1,7 @@
 html {
   height: 100%;
-  background-image: linear-gradient(to bottom right, yellow, aquamarine)
+  background-image: linear-gradient(to bottom right, yellow, aquamarine);
+  overflow: hidden;
 }
 
 @font-face {
@@ -16,6 +17,8 @@ body {
   font-family: schaeffer;
   font-size: 60px;
   color: rgb(127, 97, 156);
+  margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .center {
@@ -40,8 +43,9 @@ canvas {
 .buttons {
   width: 420px;
   margin: auto;
+  margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 i {
@@ -69,8 +73,7 @@ i {
 footer {
   position: absolute;
   bottom: 0;
-  background-color: black;
-  opacity: 100%;
+  background-color: rgba(0,0,0,.25);
   width: 103%;
   height: 100px;
   margin-left: -10px;
@@ -88,9 +91,10 @@ footer {
 .button {
   height: 40px;
   width: 60px;
+  opacity: 70%;
   cursor: pointer;
 }
 
 .button:hover {
-  opacity: 20%;
+  opacity: 100%;
 }
