@@ -18,9 +18,22 @@ body {
   color: rgb(127, 97, 156);
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .instructions {
-  margin: auto;
-  width: 500px;
+  margin: 0 0 0 50px;
+  width: 250px;
   font-family: sans-serif;
 }
 
@@ -29,11 +42,6 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
-}
-
-.button {
-  height: 40px;
-  width: 60px;
 }
 
 i {
@@ -58,3 +66,31 @@ i {
   color: red;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  opacity: 100%;
+  width: 103%;
+  height: 100px;
+  margin-left: -10px;
+}
+
+.footer-buttons {
+  opacity: 100%;
+  width: 500px;
+  margin: auto;
+  margin-top: 33px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 20%;
+}
